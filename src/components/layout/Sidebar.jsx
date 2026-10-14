@@ -1,11 +1,16 @@
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Package, FolderTree, Gem, X } from "lucide-react";
+import { Package, FolderTree, Gem, Star, X } from "lucide-react";
 import { cn } from "../../lib/utils";
 
 const navItems = [
   { to: "/products", icon: Package, labelKey: "nav.products" },
   { to: "/categories", icon: FolderTree, labelKey: "nav.categories" },
+  {
+    to: "/featured-categories",
+    icon: Star,
+    labelKey: "nav.featuredCategories",
+  },
   { to: "/materials", icon: Gem, labelKey: "nav.materials" },
 ];
 

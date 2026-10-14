@@ -12,8 +12,11 @@ export function setToken(token) {
 
 export async function apiFetch(endpoint, options = {}) {
   const token = getToken();
+  const isFormData = options.body instanceof FormData;
+
   const headers = {
-    "Content-Type": "application/json",
+    // لا نحط Content-Type لو FormData — المتصفح بيحطه تلقائياً مع boundary
+    ...(!isFormData && { "Content-Type": "application/json" }),
     ...(token && { Authorization: `Bearer ${token}` }),
     ...options.headers,
   };

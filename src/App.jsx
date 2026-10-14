@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import Products from "./pages/products/Products";
 import Categories from "./pages/categories/Categories";
 import Materials from "./pages/materials/Materials";
+import FeaturedCategories from "./pages/featured-categories/FeaturedCategories";
 
 export default function App() {
   return (
@@ -25,6 +26,10 @@ export default function App() {
           >
             <Route path="/products" element={<Products />} />
             <Route path="/categories" element={<Categories />} />
+            <Route
+              path="/featured-categories"
+              element={<FeaturedCategories />}
+            />
             <Route path="/materials" element={<Materials />} />
           </Route>
 
