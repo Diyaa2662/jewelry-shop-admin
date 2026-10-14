@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "فرفشة",
+    "subtitle": "لوحة التحكم"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "username": "اسم المستخدم",
+    "usernamePlaceholder": "admin",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "••••••••",
+    "signIn": "دخول",
+    "signingIn": "جاري الدخول...",
+    "welcomeBack": "أهلاً بعودتك",
+    "loginSubtitle": "سجّل دخولك لإدارة المتجر",
+    "invalidCredentials": "اسم المستخدم أو كلمة المرور غير صحيحة"
+  },
+  "nav": {
+    "products": "المنتجات",
+    "categories": "الفئات",
+    "materials": "المواد"
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "search": "بحث",
+    "actions": "إجراءات",
+    "confirm": "تأكيد",
+    "confirmDelete": "هل أنت متأكد من الحذف؟",
+    "loading": "جاري التحميل...",
+    "noData": "لا توجد بيانات",
+    "back": "رجوع"
+  },
+  "products": {
+    "title": "المنتجات",
+    "addNew": "إضافة منتج",
+    "editTitle": "تعديل المنتج",
+    "addTitle": "منتج جديد",
+    "name": "اسم المنتج",
+    "price": "السعر",
+    "category": "الفئة",
+    "material": "المادة",
+    "stone": "الحجر",
+    "image": "رابط الصورة",
+    "description": "الوصف",
+    "inStock": "متوفر",
+    "empty": "لا توجد منتجات بعد. أضف منتجك الأول."
+  },
+  "categories": {
+    "title": "الفئات",
+    "addNew": "إضافة فئة",
+    "name": "اسم الفئة",
+    "image": "رابط الصورة",
+    "empty": "لا توجد فئات بعد."
+  },
+  "materials": {
+    "title": "المواد",
+    "addNew": "إضافة مادة",
+    "name": "اسم المادة",
+    "empty": "لا توجد مواد بعد."
+  }
+}

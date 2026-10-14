@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "FARFASHA",
+    "subtitle": "ADMIN PANEL"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "username": "Username",
+    "usernamePlaceholder": "admin",
+    "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "signIn": "Sign In",
+    "signingIn": "Signing in...",
+    "welcomeBack": "Welcome Back",
+    "loginSubtitle": "Sign in to manage your store",
+    "invalidCredentials": "Invalid username or password"
+  },
+  "nav": {
+    "products": "Products",
+    "categories": "Categories",
+    "materials": "Materials"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "actions": "Actions",
+    "confirm": "Confirm",
+    "confirmDelete": "Are you sure you want to delete this?",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "back": "Back"
+  },
+  "products": {
+    "title": "Products",
+    "addNew": "Add Product",
+    "editTitle": "Edit Product",
+    "addTitle": "New Product",
+    "name": "Product Name",
+    "price": "Price",
+    "category": "Category",
+    "material": "Material",
+    "stone": "Stone",
+    "image": "Image URL",
+    "description": "Description",
+    "inStock": "In Stock",
+    "empty": "No products yet. Add your first product."
+  },
+  "categories": {
+    "title": "Categories",
+    "addNew": "Add Category",
+    "name": "Category Name",
+    "image": "Image URL",
+    "empty": "No categories yet."
+  },
+  "materials": {
+    "title": "Materials",
+    "addNew": "Add Material",
+    "name": "Material Name",
+    "empty": "No materials yet."
+  }
+}
